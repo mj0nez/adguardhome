@@ -1,0 +1,11 @@
+services:
+  adguard:
+    build:
+      dockerfile: docker/Dockerfile
+      args:
+        ADGUARD_VERSION: "v0.107.56"
+      x-bake:
+        platforms:
+          - linux/amd64
+          # - linux/arm64
+    image: mj0nez/adguardhome:v0.107.56
