@@ -59,8 +59,7 @@ LABEL\
     org.opencontainers.image.description="Network-wide ads & trackers blocking DNS server" \
     org.opencontainers.image.documentation="https://github.com/AdguardTeam/AdGuardHome/wiki/" \
     org.opencontainers.image.licenses="GPL-3.0" \
-    org.opencontainers.image.source="https://github.com/AdguardTeam/AdGuardHome" \
+    org.opencontainers.image.source="https://github.com/mj0nez/adguardhome" \
     org.opencontainers.image.title="AdGuard Home" \
-    org.opencontainers.image.url="https://adguard.com/en/adguard-home/overview.html" \
-    org.opencontainers.image.vendor="AdGuard" \
+    org.opencontainers.image.url="https://hub.docker.com/r/mj0nez/adguardhome" \
     org.opencontainers.image.version=$ADGUARD_VERSION
