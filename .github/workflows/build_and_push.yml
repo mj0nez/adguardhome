@@ -25,4 +25,4 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - run: make build PUSH=--push PULL=--pull
+      - run: make ci-build

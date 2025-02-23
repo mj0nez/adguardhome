@@ -12,7 +12,7 @@ ARG GID=1000
 ARG SERVICE_USER=adguard
 
 RUN addgroup --system -g ${GID} ${SERVICE_USER} \
-    && adduser --system -u ${UID} -G ${SERVICE_USER} -s /sbin/nologin -h /opt/adguardhome  ${SERVICE_USER} 
+    && adduser --system -u ${UID} -G ${SERVICE_USER} -s /sbin/nologin -h /opt/adguardhome  ${SERVICE_USER}
 
 RUN mkdir -p /etc/adguardhome /opt/adguardhome/work/data \
     && chown -R ${SERVICE_USER}:${SERVICE_USER} /etc/adguardhome /opt/adguardhome/work/data \

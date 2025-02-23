@@ -4,8 +4,4 @@ services:
       dockerfile: docker/Dockerfile
       args:
         ADGUARD_VERSION: ${ADGUARD_VERSION}
-      x-bake:
-        platforms:
-          - linux/amd64
-          - linux/arm64
     image: mj0nez/adguardhome:${ADGUARD_VERSION}
