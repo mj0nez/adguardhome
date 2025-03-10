@@ -1,3 +1,4 @@
+# renovate: datasource=docker packageName=adguard/adguardhome versioning=docker
 export ADGUARD_VERSION?=v0.107.56
 
 # local build
