@@ -4,7 +4,7 @@ ARG ADGUARD_VERSION=v0.107.60
 
 FROM adguard/adguardhome:${ADGUARD_VERSION} AS source
 
-FROM alpine:3.21 AS custom
+FROM alpine:3.22 AS custom
 
 ARG ADGUARD_VERSION=v0.107.56
 ARG UID=1000
