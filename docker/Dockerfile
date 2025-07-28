@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-ARG ADGUARD_VERSION=v0.107.63
+ARG ADGUARD_VERSION=v0.107.64
 
 FROM adguard/adguardhome:${ADGUARD_VERSION} AS source
 
