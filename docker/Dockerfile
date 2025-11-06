@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-ARG ADGUARD_VERSION=v0.107.67
+ARG ADGUARD_VERSION=v0.107.69@sha256:8a4107ec812023842ccab9e04600c5d39d3be6b15e907c34a36339c184c8fccf
 
 FROM adguard/adguardhome:${ADGUARD_VERSION} AS source
 
