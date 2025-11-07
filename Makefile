@@ -1,5 +1,5 @@
 # renovate: datasource=docker packageName=adguard/adguardhome versioning=docker
-export ADGUARD_VERSION?=v0.107.67
+export ADGUARD_VERSION?=v0.107.69
 
 # local build
 build: PUSH=
